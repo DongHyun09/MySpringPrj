@@ -1,1 +1,13 @@
 start
+
+
+Servlet 설정 및 Controller, TilesViewResolver 설정 완료.
+View 페이지 추가 및 추가적인 컨트롤러, Service 필요.
+
+
+(현재까지 사용한 것 ~ 2023.5.04)
+Spring MVC
+jstl
+Tiles
+Maven Plugin
+Maven Compiler
