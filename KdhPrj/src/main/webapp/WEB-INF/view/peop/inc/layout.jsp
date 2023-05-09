@@ -4,22 +4,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>MyFirstSpringPrj</title>
+    <title><tiles:getAsString name="human"/></title>
     <meta charset="UTF-8">
 </head>
+
 <body>
     <!-- header 부분 -->
-<tiles:insertAttribute name="header"/>
+    <tiles:insertAttribute name="header"/>
 
-    <!-- --------------------------- <body> --------------------------------------- -->
-
-    <!-- content 부분 -->
-
-<tiles:insertAttribute name="body"/>
-
-    <!-- ------------------- <footer> --------------------------------------- -->
+	<tiles:insertAttribute name="aside"/>
     
-<tiles:insertAttribute name="footer"/>
+    <!-- --------------------------- <body> --------------------------------------- -->
+    <!-- content 부분 -->
+<div align="center">
+<tiles:insertAttribute name="body"/>
+</div>
+    <!-- ------------------- <footer> --------------------------------------- -->  
 </body>
-
+<tiles:insertAttribute name="footer"/>
 </html>

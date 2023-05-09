@@ -4,20 +4,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>MyFirstSpringPrj</title>
+    <title><tiles:getAsString name="title"/></title>
     <meta charset="UTF-8">
 </head>
 <body>
     <!-- header 부분 -->
-
-
-
-
-
+    
 <tiles:insertAttribute name="header"/>
-
     <!-- --------------------------- <body> --------------------------------------- -->
-
     <!-- content 부분 -->
 
 <tiles:insertAttribute name="body"/>
@@ -26,5 +20,4 @@
     
 <tiles:insertAttribute name="footer"/>
 </body>
-
 </html>
